@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-[#e5e5e5]">
 
-      <header className="padding  "><Nav /></header>
+      <header className="padding  absolute w-full"><Nav /></header>
 
       <section className="padding"><Hero /></section>
 
