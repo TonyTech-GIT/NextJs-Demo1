@@ -1,0 +1,7 @@
+Colors used:
+
+1. #000000
+2. #14213d
+3. #fca311
+4. #e5e5e5
+5. #ffffff
