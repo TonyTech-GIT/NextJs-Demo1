@@ -5,6 +5,10 @@ import deliveryIcon from '../../public/assets/icons/delivery.png'
 import onTimeIcon from '../../public/assets/icons/on-time.png'
 import securityIcon from '../../public/assets/icons/security.png'
 
+import whatsappIcon from '../../public/assets/icons/whatsappIcon.png'
+import instagramIcon from '../../public/assets/icons/instagramIcon.png'
+import facebookIcon from '../../public/assets/icons/facebookIcon.png'
+
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#hero", label: "Hero" },
@@ -34,4 +38,10 @@ export const cardsInfo = [
         label: "Secure",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat eum similique quidem quis possimus quas."
     }
+]
+
+export const mediaLinks = [
+    { imgUrl: whatsappIcon, label: 'Whatsapp' },
+    { imgUrl: instagramIcon, label: 'Instagram' },
+    { imgUrl: facebookIcon, label: 'Facebook' }
 ]

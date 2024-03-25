@@ -6,9 +6,9 @@ const Hero = () => {
     return (
         <section id="hero" className="mt-[6rem] w-full max-container flex lg:flex-row flex-col justify-center min-h-screen max-md:gap-4">
 
-            <div className="relative flex flex-1 flex-col justify-center items-center text-white bg-black rounded-sm lg:w-full ">
+            <div className="relative flex flex-1 flex-col justify-center items-center text-white bg-black rounded-lg lg:w-full ">
 
-                <h1 className="lg:text-4xl leading-normal font-plus-jakata font-bold">Lorem, ipsum <span className="text-yellow-400">dolor.</span>
+                <h1 className="lg:text-4xl text-3xl p-1 leading-normal font-plus-jakata font-bold">Lorem, ipsum <span className="text-yellow-400">dolor.</span>
                     <br />
                     Lorem ipsum dolor sit.
                     <br />
@@ -22,7 +22,7 @@ const Hero = () => {
                 <Image
                     src={bigImage}
                     alt="big image"
-                    className="object-cover shadow-xl rounded-lg"
+                    className="object-cover  "
                 />
             </div>
         </section>

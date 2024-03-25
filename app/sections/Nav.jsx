@@ -20,9 +20,9 @@ const Nav = () => {
 
             </div>
 
-            <div className="flex  gap-8 font-montserrat lg:flex-row md:flex-row max-sm:hidden">
+            <div className="flex  lg:gap-8  font-montserrat lg:flex-row md:flex-row max-sm:hidden">
                 {navLinks.map((navLink) => (
-                    <div className=" border-b-4 pb-1 hover:border-yellow-400 transition duration-200 ease-in-out" key={navLink.label}>
+                    <div className=" border-b-4 pb-1 hover:border-yellow-400 transition duration-200 ease-in-out lg:m-0 md:mr-5" key={navLink.label}>
                         <a
                             href={navLink.href}>{navLink.label}
                         </a>

@@ -19,7 +19,7 @@ const Cards = ({ imgUrl, label, desc }) => {
         // }
     }
     return (
-        <div className="h-[250px] w-[250px] bg-white rounded-lg shadow-lg flex flex-col justify-center pl-3">
+        <div className="h-[250px] w-[250px] bg-white rounded-lg shadow-lg flex flex-col justify-center pl-3 max-sm:mb-8 md:ml-5 md:mb-5 lg:m-0">
 
             <div className="bg-yellow-400 rounded-full h-11 w-11 flex justify-center items-center">
                 <Image

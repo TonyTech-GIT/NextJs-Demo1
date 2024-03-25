@@ -13,7 +13,7 @@ export default function Home() {
 
       <section className="padding"><About /></section>
 
-      <section className="padding"><Footer /></section>
+      <section className="padding bg-black"><Footer /></section>
     </main>
   );
 }

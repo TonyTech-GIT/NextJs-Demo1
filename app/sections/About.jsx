@@ -12,7 +12,7 @@ const About = () => {
                 </h1>
             </div>
 
-            <div className="mt-11 flex flex-1 flex-wrap justify-center gap-11">
+            <div className="mt-11 flex flex-1 flex-wrap justify-center lg:gap-11 ">
                 {cardsInfo.map((cardInfo) => (
                     <Cards key={cardInfo.label}
                         {...cardInfo}
